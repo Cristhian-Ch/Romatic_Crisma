@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffe4e1;
+    color: #6b0f1a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1, .section2, .section3 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.active {
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #6b0f1a;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #931a29;
+}
+
+.letras span {
+    font-size: 4rem;
+    color: #6b0f1a;
+}
+
+#romanticoText {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    color: #6b0f1a;
+}
+
+#gifRomantico {
+    width: 400px;
+    height: auto;
+}
